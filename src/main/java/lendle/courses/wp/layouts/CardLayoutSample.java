@@ -50,10 +50,12 @@ public class CardLayoutSample {
         }
         //add ActionListener to each control button and invoke
         //first, previous, next, and last for each button
+         
         first.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 layout.first(panel);
+                
             }
         });
         prev.addActionListener(new ActionListener() {
